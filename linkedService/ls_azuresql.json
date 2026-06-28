@@ -1,0 +1,17 @@
+{
+	"name": "ls_azuresql",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "spotifyprojectserverharsh.database.windows.net",
+			"database": "spotifyprojectdbharsh",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "adminharsh",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDFERjE2MjM5LTcyOEQtNEI5NS1BNEIyLUFDQUZDRUIzNUMxQ181ZTNlNGI5NS04MDJmLTQ5NjctYTY2Ni1kMWI5Njk1N2NjNWIiDQp9"
+		}
+	}
+}
